@@ -1,0 +1,34 @@
+{
+  "@quasar/typescript": {
+    "webpack": "plugin",
+    "rename": true
+  },
+  "@quasar/dotenv": {
+    "env_development": "development.env",
+    "env_production": "production.env",
+    "common_root_object": "none",
+    "create_env_files": true,
+    "add_env_to_gitignore": true
+  },
+  "@quasar/icon-genie": {
+    "minify_dev": "pngquant",
+    "minify_build": "zopfli",
+    "cordova": {
+      "background_color": "#000074",
+      "splashscreen_type": "pure"
+    },
+    "build_always": false,
+    "__internal": {
+      "dev": {
+        "electron": {
+          "iconHash": "4ccb11f8fcf30f338d32859047fd3ad3"
+        }
+      },
+      "build": {
+        "electron": {
+          "iconHash": "4ccb11f8fcf30f338d32859047fd3ad3"
+        }
+      }
+    }
+  }
+}
