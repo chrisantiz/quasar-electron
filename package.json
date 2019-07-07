@@ -7,7 +7,6 @@
   "author": "chrisantiz <santzch@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "electron:dev": "quasar dev -m electron",
     "electron:build": "quasar build -m electron",

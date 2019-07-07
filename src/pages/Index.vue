@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg" />
   </q-page>
 </template>
 
@@ -8,9 +8,10 @@
 </style>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Vue, Component } from 'vue-property-decorator';
 
-export default Vue.extend({
-  name: 'PageIndex'
+@Component({
+  name: 'PageIndex',
 })
+export default class extends Vue {}
 </script>
